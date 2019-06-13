@@ -1,1 +1,4 @@
-<?php include_once("index.html"); ?>
+<?php
+$home_page = include_once("home.html");
+var_dump($home_page);
+?>
